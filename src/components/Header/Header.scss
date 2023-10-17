@@ -47,3 +47,24 @@ header {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    p {
+      max-width: 80%;
+    }
+    h1,
+    h2 {
+      font-size: 3rem;
+      @include robo-bold;
+    }
+    ul {
+      flex-wrap: wrap;
+      li {
+        border: none;
+        width: 50%;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
