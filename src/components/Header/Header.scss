@@ -1,3 +1,13 @@
-h3 {
-  background-color: blue;
+header {
+  background-color: green($color: #000000);
+  @include f-column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  h1,
+  h2 {
+    color: var(--white);
+    font-size: 20rem;
+    @include robo-bold;
+  }
 }

@@ -1,13 +1,17 @@
+@import "./variable.scss";
+@import "./mixin.scss";
+
 /* -font import, globale styles für die ganze APP, oder h1, h2, h3 */
 /* -Komponente unabhängige sachen */
 
-:root {
-  --color: green;
-  --white: whitesmoke;
-  --light-gray: gray;
-  --dark-text: rgb(22, 21, 21);
-  --blue: rgb(24, 41, 66);
-  --lightgreen: rgb(129, 197, 3);
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../src/assets/fonts/Roboto/Roboto-Bold.ttf");
 }
 
 img {

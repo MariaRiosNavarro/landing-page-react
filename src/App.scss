@@ -1,5 +1,27 @@
-:root {
-  background-color: whitesmoke;
+@import "./variable.scss";
+@import "./mixin.scss";
+
+@font-face {
+  font-family: Roboto;
+  src: url("../src/assets/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url("../src/assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $roboto;
 }
 
 // #root {
