@@ -1,0 +1,43 @@
+@import "../../variable.scss";
+@import "../../mixin.scss";
+
+.main {
+  padding: 2rem;
+
+  h3 {
+    color: $green;
+  }
+  @include f-column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+  .grid-section {
+    padding: 0 8rem;
+    margin: 0 auto;
+    display: grid;
+    gap: 6rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    article {
+      @include f-column;
+      gap: 2rem;
+      position: relative;
+      h4 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.4rem;
+        width: 90%;
+      }
+      img {
+        position: absolute;
+        left: -5rem;
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+  }
+
+  padding-bottom: 8rem;
+}
