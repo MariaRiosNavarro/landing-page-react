@@ -13,6 +13,8 @@
   <div>
     <img src="./public/readme/readme4.png" alt="readme pic" width="250px">
     <img src="./public/readme/readme5.png" alt="readme pic" width="250px">
+  </div>
+  <div>
     <img src="./public/readme/readme6.png" alt="readme pic" width="250px">
     <img src="./public/readme/readme7.png" alt="readme pic" width="250px">
   </div>
