@@ -1,3 +1,5 @@
+import "./Header.scss";
+
 const Header = () => {
   return (
     <>
@@ -5,6 +7,18 @@ const Header = () => {
         <h3>Hello There</h3>
         <h1>We Are Glint</h1>
         <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          similique fugit facere quaerat, enim deleniti atque deserunt, ad saepe
+          nostrum veritatis voluptatum iure repellat dolorem rem aliquid quos
+          maxime quibusdam!Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Suscipit similique fugit facere quaerat, enim deleniti atque
+          deserunt, ad saepe nostrum veritatis voluptatum iure repellat dolorem
+          rem aliquid quos maxime quibusdam! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Suscipit similique fugit facere quaerat,
+          enim deleniti atque deserunt, ad saepe nostrum veritatis voluptatum
+          iure repellat dolorem rem aliquid quos maxime quibusdam!
+        </p>
         <ul>
           <li>
             <h2>127</h2>
