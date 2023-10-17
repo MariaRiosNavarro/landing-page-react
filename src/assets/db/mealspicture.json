@@ -1,0 +1,50 @@
+[
+  {
+    "titel": "Salat",
+    "src": "mealPictures/image1.jpg",
+    "pfad": "salat.jpg",
+    "price": "$45/$65"
+  },
+  {
+    "titel": "Pizza",
+    "src": "mealPictures/image2.jpg",
+    "pfad": "pizza.jpg",
+    "price": "$65/$70"
+  },
+  {
+    "titel": "Frikadellen",
+    "src": "mealPictures/image3.jpg",
+    "pfad": "frikadellen.jpg",
+    "price": "$30.50"
+  },
+  {
+    "titel": "Glass",
+    "src": "mealPictures/image4.jpg",
+    "pfad": "glass.jpg",
+    "price": "$25.50"
+  },
+  {
+    "titel": "Pizza Oliven",
+    "src": "mealPictures/image5.jpg",
+    "pfad": "pizza2.jpg",
+    "price": "$25.50"
+  },
+  {
+    "titel": "Scampi",
+    "src": "mealPictures/image6.jpg",
+    "pfad": "scampi.jpg",
+    "price": "$25.50"
+  },
+  {
+    "titel": "Spaghetti",
+    "src": "mealPictures/image7.jpg",
+    "pfad": "spaghetti.jpg",
+    "price": "$25.50"
+  },
+  {
+    "titel": "Teller",
+    "src": "mealPictures/image8.jpg",
+    "pfad": "teller.jpg",
+    "price": "$25.50"
+  }
+]

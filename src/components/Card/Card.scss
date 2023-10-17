@@ -1,0 +1,12 @@
+.flex-colum {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .card-title {
+    color: var(--blue);
+  }
+  .card-price {
+    color: var(--light-green);
+  }
+}
