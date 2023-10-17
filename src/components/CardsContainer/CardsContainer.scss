@@ -1,6 +1,10 @@
+@import "../../variable.scss";
+@import "../../mixin.scss";
+
 .grid {
   display: grid;
-  background-color: var(--light-gray);
+  background-color: $light-gray;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
+  padding: 0 8rem;
 }

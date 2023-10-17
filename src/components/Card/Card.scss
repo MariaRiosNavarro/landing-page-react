@@ -1,12 +1,32 @@
+@import "../../variable.scss";
+@import "../../mixin.scss";
+
 .flex-colum {
-  background-color: var(--white);
-  display: flex;
-  flex-direction: column;
+  padding: 2rem;
+  background-color: white;
+  @include f-column;
   justify-content: space-between;
+  img {
+    aspect-ratio: 1/1;
+  }
   .card-title {
-    color: var(--blue);
+    color: $blue;
+    font-size: 2rem;
+    padding: 1rem 0;
+    @include robo-bold;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  h4 {
+    @include robo-bold;
+    font-weight: 900;
+    font-size: 1.9rem;
+    padding: 1rem 0;
   }
   .card-price {
-    color: var(--light-green);
+    color: $lightgreen;
+    font-size: 2.5rem;
   }
 }
