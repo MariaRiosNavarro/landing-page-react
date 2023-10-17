@@ -1,10 +1,10 @@
 import "./Card.scss";
 
-const Card = (src, pfad, title, price) => {
+const Card = ({ src, alt, title, price }) => {
   return (
     <>
       <div className="flex-colum">
-        <img src={src} alt={pfad} />
+        <img src={src} alt={alt} />
         <h3 className="card-title">{title}</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
