@@ -1,5 +1,5 @@
 import "./CardsContainer.scss";
-import Card from "../Card/card";
+import Card from "../Card/Card.jsx";
 
 const meals = [
   {
