@@ -56,16 +56,20 @@ const CardsContainer = () => {
   return (
     <div className="grid">
       {meals.map((meal, index) => (
-        <Card
-          key={index}
-          src={meal.src}
-          pfad={meal.pfad}
-          title={meal.titel}
-          price={meal.price}
-        />
+        <Card mealObject={meal} key={index} />
       ))}
     </div>
   );
 };
+
+// Old version without mealObject
+
+// <Card
+//   key={index}
+//   src={meal.src}
+//   pfad={meal.pfad}
+//   title={meal.titel}
+//   price={meal.price}
+// />
 
 export default CardsContainer;
